@@ -5,18 +5,18 @@ public class Mobile {
 	String color;
 	String storage;
 	
-	public Mobile(){
+	 Mobile(){
 		this("Remdi","Balck");
 		
 	}
-  public  Mobile(String name,String color){
+    Mobile(String name,String color){
     	this.model=model;
     	this.color=color;
     	System.out.println("Calling Two parameterzied constructor");
     	System.out.println("this.model:"+this.model);
     	System.out.println("this.color:"+this.color);
     }
- public   Mobile(String name,String color,String storage){
+   Mobile(String name,String color,String storage){
     	this.model=model;
     	this.color=color;
     	this.storage=storage;
