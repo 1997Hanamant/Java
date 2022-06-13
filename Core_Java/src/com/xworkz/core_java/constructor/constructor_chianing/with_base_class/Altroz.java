@@ -4,7 +4,7 @@ public class Altroz extends TataMotors{
 	String altrozModel;
 	double price;
 	
-	Altroz(String name){
+	Altroz(){
 		
 		System.out.println("Altroz Constructed");
 	}
