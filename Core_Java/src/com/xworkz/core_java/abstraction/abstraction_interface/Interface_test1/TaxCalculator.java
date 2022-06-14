@@ -2,15 +2,11 @@ package com.xworkz.core_java.abstraction.abstraction_interface.Interface_test1;
 
 public class TaxCalculator implements StateTax{
 
-	public void PetrolTax() {
-		System.out.println("State tax on petrol is 5%");
+	public void petroltax() {
+	   System.out.println(" State petrolTax is 5% and centeral petrol tax is 8%");
+		
+	}
 		
 	}
 
-	@Override
-	public void pertoltax() {
-		System.out.println("Centarl tax on petrol is 10%");
-		
-	}
 
-}
