@@ -5,10 +5,10 @@ public class Tiger{
 		String color;
 		String gender;
 		Tiger(){
-			this("Rio","Orange");
-			
+			System.out.println("d");
 		}
 		Tiger(String name,String color){
+			this("rio","black","male");
 			this.name=name;
 			this.color=color;
 			System.out.println("Calling Two parmterzied constructor");
@@ -18,6 +18,7 @@ public class Tiger{
 			
 	}
       Tiger(String name,String color,String gender){
+    	
     	  this.name=name;
     	  this.color=color;
     	  this.gender=gender;

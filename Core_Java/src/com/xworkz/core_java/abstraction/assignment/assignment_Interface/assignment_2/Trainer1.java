@@ -2,5 +2,6 @@ package com.xworkz.core_java.abstraction.assignment.assignment_Interface.assignm
 
 public interface Trainer1 {
 public 	void train();
+public void Test();
 
 }

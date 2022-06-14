@@ -6,7 +6,7 @@ abstract class Nokia extends Mobile {
 		System.out.println("upArrow implemented by nokia");
 	}
 	void downArrow() {
-		System.out.println("downAerrow implemented by nokia ");
+		System.out.println("downAarrow implemented by nokia ");
 	}
 
 }

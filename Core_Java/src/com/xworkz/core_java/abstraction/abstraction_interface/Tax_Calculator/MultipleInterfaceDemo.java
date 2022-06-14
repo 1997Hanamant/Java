@@ -5,7 +5,7 @@ public class MultipleInterfaceDemo {
 		TaxCalculator taxCalculator=new TaxCalculator();
 		taxCalculator.eletricityTax();
 		taxCalculator.petrolTax();
-		taxCalculator.petrolTax1();
+	
 		
 	
 	

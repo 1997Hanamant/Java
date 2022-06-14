@@ -7,6 +7,7 @@ public class InterfaceDemo {
 		SyndicateCard syndicateCard=new SyndicateCard();
 		atm.slot(syndicateCard);
 		atm.slot(bankOfBarodaCard);
+	
 		
 	}
 

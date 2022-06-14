@@ -6,6 +6,7 @@ public class MotorBikeSportsBikeMoutainBikeDemo {
 		m1.brake();
 		SportsBike s1=new SportsBike();
 		s1.brake();
+		
 	}
 
 }

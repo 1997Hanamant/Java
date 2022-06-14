@@ -2,7 +2,7 @@ package com.xworkz.core_java.constructor.constructor_chianing.Assingment.with_ba
 
 public class DerivedDemo {
 	public static void main(String[] args) {
-		Derived obj=new Derived();
+		Derived obj=new Derived("name");
 	}
 
 }

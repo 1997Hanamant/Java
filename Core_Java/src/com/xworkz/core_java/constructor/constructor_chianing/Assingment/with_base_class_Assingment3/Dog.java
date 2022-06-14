@@ -2,7 +2,7 @@ package com.xworkz.core_java.constructor.constructor_chianing.Assingment.with_ba
 
 public class Dog extends Animal{
 	Dog(){
-		super("Animal");
+		super("name");
 		System.out.println("I am dog");
 	}
 	
