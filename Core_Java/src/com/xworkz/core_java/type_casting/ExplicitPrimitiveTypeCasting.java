@@ -18,8 +18,8 @@ public class ExplicitPrimitiveTypeCasting {
 		System.out.println("long e:"+e);
 		System.out.println("int f:"+f);
 		
-		int g=864367299;
-		short h=(short) g;
+		int g=250;
+		byte h=(byte) g;
 		System.out.println("int g:"+g);
 		System.out.println("short h:"+h);
 		
