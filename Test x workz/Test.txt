@@ -1,0 +1,206 @@
+ Test Date -18/06/2022
+A 1- Java is not a pure object oriented language beacause it supports primitive data types but it has way to convert it in to object.
+
+A 2-Pointers are name of memory location in c and c++.java not suppotrs pointers beacause of complexity.
+
+A 4-By while loop and do while infinite loop is declared in java,if we use break statement infinite loop is not exist.
+   Example                  int i=10
+               While( i>=1){
+                System.out.println("i:"+i);
+                }
+              output
+               i=10,10,10,10..................................................................
+
+
+A 5-Yes we can overload main method beacause we Jvm will look only aruguments in main method.
+
+A 6-Beacause we acceses by with out creating a object.
+
+A 7-*The method which declared with static keyword  is called Static method.
+    *The variable which declared with static keyword is called static variable.
+    * The classes which declared with static keyword is called static classes.
+
+A 9-Memory allocations are Method area Heap area,stack area,Pc resigter,natvie method area.
+                                      
+A 10-               Instance variable                       Local Variable
+   * Variable which is decalred inside class but    * Variable which is decalred outside  method,block,constrtucor.
+     out side method,block,constrtucor.
+   * Thses are store in Heap memory.                * Thses are store in stack memory. 
+   *Initialztion is must for I V                    * Initialztion is not must and should.   
+   * I V are created at time of object creation     * L V are created at time of block execution
+     and destroy wheh  object destory                 and destroy when block execution is complete.
+     
+A 11-We need to creat an object.
+
+A 12-JDK is Java development kit it provide enviorment to develop an application.
+     Variants of JDK are a.Javac
+                         b.java
+                         c.javap
+                         d.javadoc
+                         e.javah
+                         f.javad
+
+A 13-JDK-Java development kit provied enviorment to develop a program.
+     JRE- JRE is part of JDK,Java run time enviorment provied enviorment to run a program.
+     JVM-JVM is part of JRE ,java virtual machine execute and interpert the code line by line.
+
+A 14-this and super keyword can use together.
+
+A 16-polymorphsim is an avialbilty of an object to take more than one form.
+     and ploymorphism is achieve by two ways 1.Compile time ploymorphism (method overloading)2.Run time ploymorshism(method overriding).
+      example-man can take many more at same time.
+       
+        program on Compile Time ploymorpsim
+           Public class addition{
+             Static int add(int a,int b){
+               return a+b;
+               }
+           static int add(int a,int b,int c){
+             return a+b+c;
+             }
+             } 
+         public class additionDemo{
+         public static void main(String args[]){
+          System.out.println(addition.add(10,20);
+          System.out.println(addition.add(30,40,50);
+            }
+            }
+      output 30
+            120
+
+A 17- Abstarction is hinding an implemention details and showing only features to user is called Abstarction.
+      example-Send a sms ,driving a car.
+    
+      Abstarct class University{
+       abstarct void Syallbus();
+       void result(){
+       System.out.println(" University is decalred result");
+       }
+       Abstarct College extends University{
+         void Syallbus(){
+          System.out.println("University will give syallbus for different branches");
+        }
+       public class UniversityCollegeDemo{
+        public static void main(String args[]){
+         College  college=new College();
+         college.Syallbus();
+         college.result();
+       }
+       }
+    output
+       University will give syallbus for different branches.
+       University is decalred result.
+
+ A 19 -     Abstarct class                                                                    Interface
+     *The class which decalre with abstarct keyword is abstarct class.    *The class which decalre with Interface keyword is interface.
+     * Abstarct class have abstarct method and non abstarct method.       *Interface have abstarct method.
+     * Abstarct class will inherit using extends keyword.                 *Interface will inherit using implement keyword.
+     * Multiple inheritance is not achieve by abstarct class.             *Multiple inheritance is achieve by Interface.
+
+A-20 *Method overloading in java we can creat same method name in class but they have to be different in paremeter and method can performed based on parametrs.
+     * In java method reslovation is done by complier based on refernce type.
+     * It is used to achieve complie time ploymorphism.
+       example -int add(int a,int b)
+                int add(int a,int b,int c)
+
+A -21 *Method overriding in java is changing the implemention of parent class by child class.
+      *By default whatever parents as method are availabe to child class but if child class not statisfied with parents implements then  child will change the implements.
+      *Method overriding method resolvation done by Jvm based on run time object.
+      * It is used to achieve Run time ploymorphism.
+                  public class SBI{
+                  void rateOfInterset(){
+                   System.out.println("SBI rate of interset is 5%);
+                   }
+                   }
+                   public class Vijay Bank extends SBI{
+                    void rateOfInterset(){
+                    System.out.println("Vijay Bank rate of interset is 8%);
+                   }
+                   }
+                    public class Method overridingDemo{
+                   public static void main(String args[]){
+                    VijayBank vijayBakn=new VijayBank();
+                    vijayBank.rateOfInterset();
+                     }
+                     }
+                    outout -Vijay Bank rate of interset is 8%
+                       
+
+  A -22       No
+
+
+ A-23 * Method name and paremeter must be same.
+      * Is A realationship.
+      * Return type must be same until java 1.5 and after 1.8 retrun type will be co-variant return type of parent class.
+      *Parent calss should  not  final 
+      *Parent calss can be abstrct and non abstarct.
+
+A-24 *Compostion is strong realtionship.
+     * without existing contianer object there will no chance of contained object hence conatiner and contianed object have strong relation.
+     Example- Human and heart.
+              Bike and engine.
+
+A-26    public class Squareroot{
+         public static void main(String args[]){
+            System.out.println(math.squtr(25));
+          }
+          }
+
+A -27  Constructor is block of code it is used creat object and initialized an objcet with respect to current object.
+       Yes we can overload Constructor.
+
+A -28 Default Constructor and Parmeterzied Constructor.
+       Default Constructor-
+    *  Default Constructor is Constructor which does not have any  parameter is default Contructor
+    * Jvm will provide default values based on data types.
+      Example -Gun();
+       Parameterzied Constructor
+    * Constructor which  have  parameter is parameterzied Constructor.
+     Example -Gun(name,color);
+ 
+A 29- *Single Inheritance -Subclass will access the properties of superclass by using extends keyword.
+         Syntax     subclass extends superclass
+         Example  aniaml extends dog
+      * Multilevel Inheritance -Subclass will access the properties of superclass by using extends keyword and same subclass act super class for onther subclass.
+        Syntax     subclass1 extends superclass 1
+                   superclass(Subclass1)extends subclass
+         Example  animal extends Dog
+                  Dog extends BabyDog
+     * Hierarchiacal Inheritance-Two subclass will access the the properties of one super class using extends keyword
+          Syntax   Subclass extends superclass
+                   Subclass extends superclass
+         Example -Animal extends Dog
+                 Animal extends Cat
+    *  Multiple Inheritance-Subcalss will access the properties two super class using extends keyword and java does not support multiple inheritance by class
+         but support by using interface.
+         Syntax   subclass extends superclass,superclass
+        Example -Animal extends Dog,Cat
+   * Hybrid Inheritance-Is  combination of multilevel and Hierarchical Inheritance.
+
+
+
+
+
+                   
+
+ 
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+      
+      
