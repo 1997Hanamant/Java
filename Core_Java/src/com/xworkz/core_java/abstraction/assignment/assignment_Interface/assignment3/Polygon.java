@@ -5,6 +5,6 @@ public interface Polygon {
 	default void side() {
 		System.out.println("I can get Side of polygon");
 	}
-	
+
 
 }

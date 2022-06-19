@@ -1,3 +1,4 @@
+
 package com.xworkz.core_java.abstraction.abstraction_interface.Interface_test;
 
 public class InterfaceDemo {
@@ -7,7 +8,8 @@ public class InterfaceDemo {
 		Epson epson=new Epson();
 		computer.slot(epson);
 		computer.slot(sony);
-
+		String temp=computer.toString();
+		System.out.println(temp);
 		
 	}
 
