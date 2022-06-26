@@ -26,7 +26,7 @@ public class Dog {
 		this.color=color;
 	}
 	public void setage(int age) {
-		
+
 		this.age=age;
 	}
 	public void setprice(double price) {

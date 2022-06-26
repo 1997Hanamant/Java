@@ -1,6 +1,7 @@
 package com.xworkz.core_java.encapsulation.assignment1;
 
 public class Car {
+	
 	private int cost;
 	public	Car(int cost){
 		if(cost>0) {
