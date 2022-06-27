@@ -1,0 +1,9 @@
+hashcode()
+If two objects are the same as per the equals(Object) method, then if we call the hashCode() method on each of the two objects, it must provide the same integer result.
+
+Equals()
+reflexive: An object x must be equal to itself, which means, for object x, equals(x) should return true.
+symmetric: for two given objects x and y, x.equals(y) must return true if and only if equals(x) returns true.
+transitive: for any objects x, y, and z, if x.equals(y) returns true and y.equals(z) returns true, then x.equals(z) should 
+return true.
+consistent: for any objects x and y, the value of x.equals(y) should change, only if the property in equals() changes.
