@@ -1,4 +1,4 @@
-package com.xworkz.core_java.javaLibraies.tostring;
+package com.xworkz.core_java.javaLibraies.tostring.toString;
 
 public class Employee {
 	int id;
