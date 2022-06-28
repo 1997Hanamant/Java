@@ -1,5 +1,7 @@
 package com.xworkz.core_java.javaLibraies.toEquals.toEquals_Class;
 
+import java.util.Objects;
+
 public class Ac {
 	String brand;
 	String color;
@@ -11,6 +13,12 @@ public class Ac {
 		this.price=price;
 
 	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(brand, color, price);
+	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if(obj instanceof Ac) {
@@ -37,5 +45,5 @@ public class Ac {
 
 		}
 		return false;
-	}
+}
 }
