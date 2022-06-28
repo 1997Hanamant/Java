@@ -16,6 +16,7 @@ public class Cycle {
 		
 		
 	}
+	@Override
 	public boolean equals(Object obj) {
 Cycle cycle=(Cycle)obj;
 return this.brand==cycle.brand && this.color==cycle.color && this.noOfWheels==cycle.noOfWheels && this.noOfSheets==this.noOfSheets;
