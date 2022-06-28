@@ -1,3 +1,4 @@
+
 package com.xworkz.core_java.javaLibraies.hashCode;
 
 public class Chair {
