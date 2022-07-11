@@ -1,9 +1,7 @@
 
 package com.xworkz.core_java.dtoandDao.dao;
 
-import com.xworkz.core_java.abstraction.assignment.assignment4.Student;
 import com.xworkz.core_java.dtoandDao.dto.StudentDTO;
-import com.xworkz.core_java.dtoandDao.service.StudentService;
 
 public class StudentDAOImpl implements StudentDAO {
 	StudentDTO[] students = new StudentDTO[10];
@@ -64,7 +62,7 @@ public class StudentDAOImpl implements StudentDAO {
 					
 				}
 				break;
-				
+		 		
 				}
 		}
 			if(count>0) {
