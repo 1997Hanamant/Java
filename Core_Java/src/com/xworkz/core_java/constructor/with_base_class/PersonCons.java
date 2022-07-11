@@ -1,4 +1,4 @@
-package com.xworkz.core_java.constructor.with_base_class;
+ package com.xworkz.core_java.constructor.with_base_class;
 
 public class PersonCons {
 	String name;
