@@ -9,19 +9,18 @@ import com.xworkz.core_java.dtoAndDtoAssignment.Assignment.dto1.EngineerDto;
 
 public class EngineerRunnerMethod {
 	public static void main(String[] args) {
-		EngineerDto  dto=new EngineerDto("Ravi",38);
+		EngineerDto  dto=new EngineerDto("Ravi",28);
 		EngineerDao dao=new EngineerDaoImpl();
 		EngineerService service=new EngineerServiceImpl(dao);
+		 EngineerDto engineer=service.getEngineer(28);
 		try {
-			boolean temp = service.validAndSave(dto);
-			System.out.println(temp);
-
+			 service.validAndSave(dto);
+	         service.updateNameByAge("Raja", 28);
+	         service.deleteNameByAge("Raja", 28);
+	         System.out.println(engineer);
 		} catch (InvalidDataException e) {
 			e.printStackTrace();
 		}
-
-
-
 
 	}
 

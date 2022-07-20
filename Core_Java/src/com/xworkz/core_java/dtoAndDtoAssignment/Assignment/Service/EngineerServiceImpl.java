@@ -40,5 +40,27 @@ public class EngineerServiceImpl implements EngineerService {
 		this.dao = dao;
 	}
 
+	@Override
+	public EngineerDto getEngineer(int age) {
+		return dao.getEngineer(age);
+	}
+
+	@Override
+	public void updateNameByAge(String nameToUpdate, int age) {
+	if(nameToUpdate!=null && nameToUpdate.length()>3 && nameToUpdate.length()<30) {
+		this.dao.updateNameByAge(nameToUpdate, age);
+		
+	}
+		
+	}
+
+	@Override
+	public void deleteNameByAge(String nameToDelete, int age) {
+		if(nameToDelete!=null && nameToDelete.length()>3 && nameToDelete.length()<30) {
+			this.dao.deleteNameByAge(nameToDelete, age);
+		}
+		
+	}
+
 
 }
