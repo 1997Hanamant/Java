@@ -1,4 +1,4 @@
-package com.xworkz.core_java.collectionFramework;
+package com.xworkz.core_java.collectionFramework.Collection;
 import java.util.ArrayList;
 
 public class ArryListDemo {
@@ -22,6 +22,7 @@ public class ArryListDemo {
 		System.out.println(al.isEmpty());
 		al.clear();
 		System.out.println(al.isEmpty());
+		System.out.println("********************************");
 		ArrayList l=new ArrayList();
 		l.add(50);
 		l.add(200);
@@ -29,9 +30,16 @@ public class ArryListDemo {
 		l.add(200);
 	    l.add(300);
 	    l.add(200);
+	  
 	    System.out.println(l.indexOf(100));
 	    System.out.println(l.indexOf(200));
 	    System.out.println(l.lastIndexOf(200));
+	    System.out.println("***********************************");
+	    
+	    ArrayList<Integer> all=new ArrayList<Integer>();
+	    all.add(2500);
+	    System.out.println(all.containsAll(l));
+	    
 		
 		
 	}
