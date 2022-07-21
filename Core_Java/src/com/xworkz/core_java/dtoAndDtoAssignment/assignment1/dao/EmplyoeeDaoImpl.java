@@ -39,7 +39,7 @@ public class EmplyoeeDaoImpl implements EmplyoeeDao {
 				break;
 			}
 		}
-		
+
 	}
 
 	@Override
@@ -52,6 +52,6 @@ public class EmplyoeeDaoImpl implements EmplyoeeDao {
 				break;
 			}
 
+		}
 	}
-}
 }
