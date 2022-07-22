@@ -1,5 +1,7 @@
 package com.xworkz.core_java.collectionFramework.dtoDaoService.application;
 
+import com.xworkz.core_java.collectionFramework.dtoDaoService.dao.BikeDao;
+import com.xworkz.core_java.collectionFramework.dtoDaoService.dao.BikeDaoImpl;
 import com.xworkz.core_java.collectionFramework.dtoDaoService.dto.BikeDto;
 import com.xworkz.core_java.collectionFramework.dtoDaoService.service.BikeService;
 import com.xworkz.core_java.collectionFramework.dtoDaoService.service.BikeServiceImpl;
@@ -17,7 +19,8 @@ public class Runner {
 		yamaha.setColor("black");
 		yamaha.setPrice(140000.00);
 		yamaha.setNoOfGear(5);
-
+		
+        BikeDao dao=new BikeDaoImpl();
 		BikeService service=new BikeServiceImpl();
 		service.save(apache);
 		service.save(yamaha);
