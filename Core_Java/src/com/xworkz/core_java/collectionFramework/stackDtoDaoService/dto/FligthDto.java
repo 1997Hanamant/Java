@@ -8,7 +8,7 @@ private	String source;
 private	String destination;
 private	String type;
 private	double price;
-private	ArrayList<Offers>offers;
+private	ArrayList<String>offers;
 
 public FligthDto() {
 	
@@ -54,11 +54,11 @@ public void setPrice(double price) {
 	this.price = price;
 }
 
-public ArrayList<Offers> getOffers() {
+public ArrayList<String> getOffers() {
 	return offers;
 }
 
-public void setOffers(ArrayList<Offers> offers) {
+public void setOffers(ArrayList<String> offers) {
 	this.offers = offers;
 }
 
