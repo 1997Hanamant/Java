@@ -20,9 +20,7 @@ public class FligthServiceImpl implements FligthService{
 	}
 
 	@Override
-	public FligthDto getFligth(double price) {
-		return dao.getFligth(price);
-	}
+	public FligthDto getFligth(double price) {it}
 
 	@Override
 	public void updateTypeByPrice(String typeToUpdate, double price) {
