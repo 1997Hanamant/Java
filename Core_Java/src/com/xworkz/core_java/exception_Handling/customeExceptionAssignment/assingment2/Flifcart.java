@@ -17,7 +17,7 @@ public class Flifcart{
 			throw flifExp;
 		
 		}
-			catch(FlifcartException e) {
+			catch(FlifcartException flifExp) {
 				System.out.println("I did not get redmi phone");
 			}
 			
