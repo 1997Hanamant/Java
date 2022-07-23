@@ -12,6 +12,7 @@ public class HashSetDemo {
 		hs.add("null");
 		hs.add("Java");
 		
+		
 		System.out.println(hs);
 		
 				
