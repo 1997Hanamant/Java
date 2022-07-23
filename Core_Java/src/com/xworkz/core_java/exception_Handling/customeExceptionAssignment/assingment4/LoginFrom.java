@@ -3,7 +3,7 @@ package com.xworkz.core_java.exception_Handling.customeExceptionAssignment.assin
 import java.util.Scanner;
 
 public class LoginFrom {
-	public static void main(String[] args) {
+	public static void main(String[] args)throws InvalidPasswordException {
 		Scanner scan=new Scanner(System.in) ;
 		System.out.println("Enter your Id");
 		String id=scan.next();
