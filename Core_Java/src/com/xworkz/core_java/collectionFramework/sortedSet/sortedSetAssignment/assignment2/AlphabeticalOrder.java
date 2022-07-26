@@ -4,11 +4,12 @@ import java.util.TreeSet;
 
 public class AlphabeticalOrder {
 	public static void main(String[] args) {
-		TreeSet<String> ts=new TreeSet<String>();
+		TreeSet<String> ts=new TreeSet<String>(new CustomCompartor());
 		ts.add("Java");
 		ts.add("Walk");
-		
-		System.out.println(ts.size());
+		ts.add("Run");
+		ts.add("Speed");
+		System.out.println(ts);
 		
 		
 		
