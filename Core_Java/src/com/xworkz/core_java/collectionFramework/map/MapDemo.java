@@ -12,6 +12,7 @@ public class MapDemo {
 		hs.put(50, "Aplication");
 		hs.put(10, "Money");
 		hs.put(80, "Java");
+	
 		
 		System.out.println(hs);
 //		System.out.println("***********");
@@ -19,12 +20,12 @@ public class MapDemo {
 //		System.out.println("***********");
 //		System.out.println(hs.containsKey(20));
 //		System.out.println("***********");
-//        System.out.println(hs.containsValue("Java"));
-//        System.out.println(hs.remove(10));
-//        System.out.println(hs);
-//        System.out.println(hs.isEmpty());
-//        hs.clear();
-//        System.out.println(hs.isEmpty());
+//      System.out.println(hs.containsValue("Java"));
+//      System.out.println(hs.remove(10));
+//      System.out.println(hs);
+//      System.out.println(hs.isEmpty());
+//      hs.clear();
+//      System.out.println(hs.isEmpty());
   
 	
 		
