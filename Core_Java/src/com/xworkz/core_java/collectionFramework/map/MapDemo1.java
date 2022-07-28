@@ -23,6 +23,8 @@ public class MapDemo1 {
     	   lhp.put(10, "Moblie");
     	   lhp.put(20, "Tv");
     	   lhp.put(30, "Pan");
+    	   lhp.put(10, "Java");
+    	   System.out.println(lhp);
     	   
           Set<Integer> s1=lhp.keySet();
          for(int key1:s1) {
