@@ -54,7 +54,7 @@ public class CustomMapping {
 			if(map.getKey().equals(manu)) {
 			Set<Employee> employees=map.getValue();
 			for(Employee emp:employees) {
-				if(emp.getEmpId().equals("5b"));
+				if(emp.getEmpId().equals("5b"));	
 				System.out.println(emp);
 			}
 				
@@ -64,3 +64,4 @@ public class CustomMapping {
 	}
 
 }
+
