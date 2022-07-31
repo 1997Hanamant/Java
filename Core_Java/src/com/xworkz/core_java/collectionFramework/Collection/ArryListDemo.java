@@ -23,7 +23,7 @@ public class ArryListDemo {
 		al.clear();
 		System.out.println(al.isEmpty());
 		System.out.println("********************************");
-		ArrayList l=new ArrayList();
+		ArrayList<Integer> l=new ArrayList();
 		l.add(50);
 		l.add(200);
 		l.add(100);

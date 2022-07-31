@@ -32,11 +32,7 @@ public class VectorDemo {
     	  enumeration.nextElement();
     	  count++;
       }
-	 System.out.println("no of Elements:"+count);
-
-	
-		
-		
+	 System.out.println("no of Elements:"+count);	
 	}
 
 }
