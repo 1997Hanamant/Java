@@ -17,6 +17,16 @@ SOFTWARE_DEVELOPER_ENGINEER("SoftWare Developer Enginner"),
 	public String getDesignation() {
 		return designation;
 	}
+	public static DesignationProperties getByValue(String value) {
+		DesignationProperties[] designationProperties=DesignationProperties.values();
+		for(DesignationProperties designationProperties2:designationProperties) {
+			System.out.println(designationProperties2.designation+"comparing");
+			if(designationProperties2.designation.equals(value));
+			return designationProperties2;
+		}
+		return null;
+	}
+	
 		
 	}
 
