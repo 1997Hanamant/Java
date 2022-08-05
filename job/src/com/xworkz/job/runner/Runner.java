@@ -13,10 +13,10 @@ public class Runner {
 				QualificationProperties.BSC, 55.00, "YES");
 		JobDAO dao = new JobDAOImpl();
 		// dao.save(dto);
-		JobDTO id = dao.findById(2);
+		JobDTO id = dao.findById(3);
 		System.out.println(id);
 		System.out.println("**********************");
-		JobDTO idDesignatiom = dao.findByIdAndDesignation(2, "Network Engineer");
+		JobDTO idDesignatiom = dao.findByIdAndDesignation(3, "SoftWare Developer Enginner");
 		System.out.println(idDesignatiom);
 		System.out.println("**********************");
 		JobDTO idDesignationQualification = dao.findByIdAndDesignationAndQualification(3, "SoftWare Developer Enginner",
@@ -24,7 +24,7 @@ public class Runner {
 		System.out.println(idDesignationQualification);
 		dao.getTotal();
 		System.out.println("**********************");
-		Boolean fresher =dao.isFresherById(2);
+		Boolean fresher =dao.isFresherById(3);
 		System.out.println(fresher);
 		System.out.println("**********************");
 		Double percentage	=dao.getMaxPercenatge();
