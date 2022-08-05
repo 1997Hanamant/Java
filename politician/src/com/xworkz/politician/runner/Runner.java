@@ -1,5 +1,7 @@
 package com.xworkz.politician.runner;
 
+import java.util.List;
+
 import com.xworkz.politician.dao.PoliticianDAO;
 import com.xworkz.politician.dao.PoliticianDAOImpl;
 import com.xworkz.politician.dto.PoliticianDTO;
@@ -67,19 +69,35 @@ public class Runner {
 		System.out.println(idAndName);
 
 		System.out.println("***********************************");
-		String name	=dao.findNameById(1);
+		String name	=dao.findNameById(2);
 		System.out.println(name);
 
 		System.out.println("***********************************");
-		String president=dao.findPresidentByIdAndName(1, "Kalyan");
+		String president=dao.findPresidentByIdAndName(3, "Sunil");
 		System.out.println(president);
 
 		System.out.println("***********************************");
 		dao.getTotal();
 
 		System.out.println("***********************************");
-		PoliticianDTO max=dao.findPartyByMaxMembers();
+		String max=dao.findPartyByMaxMembers();
 		System.out.println(max);
+
+		System.out.println("***********************************");
+		List<PoliticianDTO> politician=dao.findAll();
+		System.out.println(politician);
+
+		System.out.println("***********************************");
+		List<String> partyName=dao.findAllPartyName();
+		System.out.println(partyName);
+
+		System.out.println("***********************************");
+		List<Integer>pid=dao.findAllIds();
+		System.out.println(pid);
+
+		System.out.println("***********************************");
+		List<Object>totalMembersAndtotalBudegtAndPartyName	=dao.findAllNoOfMembersAndTotalBudgetAndPartyName();
+		System.out.println(totalMembersAndtotalBudegtAndPartyName);
 
 
 

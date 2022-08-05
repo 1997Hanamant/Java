@@ -19,8 +19,9 @@ public enum PartySymbolProperties {
 public static PartySymbolProperties getByValue(String Value) {
 	PartySymbolProperties[] partySymbolProperties=PartySymbolProperties.values();
 	for(PartySymbolProperties partySymbolProperties2:partySymbolProperties) {
-		if(partySymbolProperties2.symbol.equals(Value));
+		if(partySymbolProperties2.symbol.equals(Value)){
 		return partySymbolProperties2;
+	}
 	}
 	return null;
 	

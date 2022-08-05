@@ -25,8 +25,9 @@ public enum PresidentProperties {
 		PresidentProperties[] presidentProperties=PresidentProperties.values();
 		for(PresidentProperties presidentProperties2:presidentProperties) {
 			//System.out.println(presidentProperties2.persidentName+"Comparing");
-			if(presidentProperties2.persidentName.equals(Value));
+			if(presidentProperties2.persidentName.equals(Value)) {
 			return presidentProperties2;
+		}
 		}
 		return null;
 		

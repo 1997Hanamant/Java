@@ -20,11 +20,11 @@ public enum PartyNameProperties {
 		PartyNameProperties[] partyNameProperties = PartyNameProperties.values();
 		for (PartyNameProperties partyNameProperties2 : partyNameProperties) {
 			//System.out.println(partyNameProperties2.name+"Comparing");
-			if (partyNameProperties2.name.equals(value));
+			if (partyNameProperties2.name.equals(value)) {
 		
 			return partyNameProperties2;
 		}
-
+		}
 		return null;
 
 	}
