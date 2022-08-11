@@ -28,21 +28,18 @@ public class ResortEntity {
 	private String name;
 	@Column(name="location")
 	private String location;
-	@Column(name="checkinTime")
-	private LocalTime checkinTime;
-	@Column(name="checkoutTime")
-	private LocalTime checkoutTime;
+	@Column(name="checkedinTime")
+	private LocalTime checkeinTime;
+	@Column(name="checkedoutTime")
+	private LocalTime checkeoutTime;
 	@Column(name="createBy")
 	private String createBy;
 	@Column(name="createDate")
 	private LocalDate createDate;
-	@Column(name="updatedDate")
-	private LocalDate updatedDate;
-	@Column(name="ownerName")
+	@Column(name="updateDate")
+	private LocalDate updateDate;
+	@Column(name="owner")
 	private String ownerName;
 	@Column(name="pricePerDay")
 	private double pricePerDay;
-	
-	
-
 }
