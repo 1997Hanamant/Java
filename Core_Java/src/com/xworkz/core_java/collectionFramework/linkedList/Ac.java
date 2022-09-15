@@ -1,4 +1,4 @@
-package com.xworkz.core_java.collectionFramework.linkedList;
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++package com.xworkz.core_java.collectionFramework.linkedList;
 
 public class Ac {
 	String brand;

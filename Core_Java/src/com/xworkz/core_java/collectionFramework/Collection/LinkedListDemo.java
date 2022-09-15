@@ -31,10 +31,10 @@ public class LinkedListDemo {
         al1.add(200);
         al1.add(500);
         
-      //  al1.add(1, 800);
-      //  System.out.println(al1);
-        al1.set(1, 600);
+        al1.add(2, 800);
         System.out.println(al1);
+     //   al1.set(1, 600);
+     //   System.out.println(al1);
         
         Collections.sort(al1);
         System.out.println(al1);

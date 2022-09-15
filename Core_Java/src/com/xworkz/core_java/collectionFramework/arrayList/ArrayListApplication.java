@@ -5,6 +5,7 @@ public class ArrayListApplication {
 	public static void main(String[] args) {
 		Book classmate=new Book();
 		classmate.setBrand("Classmate");
+		
 		classmate.setPrice(30);
 		classmate.setNoOfPages(100);
 		Book aruns=new Book();

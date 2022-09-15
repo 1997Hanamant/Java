@@ -1,5 +1,4 @@
 package com.xworkz.core_java.string_Class;
-
 public class String_Constructors {
 	public static void main(String[] args) {
 		String s="Software Developer";
@@ -24,14 +23,17 @@ public class String_Constructors {
 		System.out.println(s.subSequence(3, 10));
 		System.out.println(s.contentEquals(s));
 		System.out.println(s.equalsIgnoreCase(s1));
-		System.out.println(s.intern());
+		System.out.println("---------------------------");
+		System.out.println(s.intern()==s1.intern());
 		System.out.println(s.isEmpty());
 		System.out.println(s.matches(s1));
 		System.out.println(s.lastIndexOf(s1));
+		System.out.println("__________________________");
 		System.out.println(s.replaceFirst(s, s1));
 		System.out.println(s.replace(s, s1));
 		System.out.println(s.toUpperCase());
-		System.out.println(s.trim().length());
+		System.out.println("****************");
+		System.out.println(s.trim().length();
 		System.out.println(s.split(s1));
 		System.out.println(s.split(s, 0));
 		System.out.println(s.valueOf(3));

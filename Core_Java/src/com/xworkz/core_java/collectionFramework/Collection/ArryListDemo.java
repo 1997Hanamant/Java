@@ -3,14 +3,23 @@ import java.util.ArrayList;
 
 public class ArryListDemo {
 	public static void main(String[] args) {
-		ArrayList al=new ArrayList();
+		ArrayList<Object> al=new ArrayList<Object>();
 		al.add(10);
 		al.add(20);
 		al.add(30);
 		al.add(40);
 		al.add(50);
-		al.add("Java");
-		al.add(null);
+		al.add(60);
+		al.add(70);
+		al.add(80);
+		al.add(90);
+		al.add(100);
+		al.add(110);
+		al.add(120);
+		al.add(130);
+		al.add(140);
+		al.add(150);
+		al.add(160);
 		System.out.println(al);
 		System.out.println(al.size());
 		System.out.println(al.get(2));
@@ -23,7 +32,7 @@ public class ArryListDemo {
 		al.clear();
 		System.out.println(al.isEmpty());
 		System.out.println("********************************");
-		ArrayList<Integer> l=new ArrayList();
+		ArrayList<Integer> l=new ArrayList<Integer>();
 		l.add(50);
 		l.add(200);
 		l.add(100);

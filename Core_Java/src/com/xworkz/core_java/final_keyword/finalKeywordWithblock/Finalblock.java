@@ -3,7 +3,7 @@ package com.xworkz.core_java.final_keyword.finalKeywordWithblock;
 public class Finalblock {
 
 	final int X;
-	static final int Y;
+	static  int Y;
 	Finalblock(){
 		System.out.println("Calling default Constructor");
 	}

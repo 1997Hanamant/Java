@@ -5,6 +5,7 @@ public class Test {
 	final int A;
 	Test(){
 	this.A=10;
+	this.x=30;
 
 }
 	Test(int x){
